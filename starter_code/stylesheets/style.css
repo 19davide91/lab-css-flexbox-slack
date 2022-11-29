@@ -8,3 +8,72 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+html{
+    font-size: 10px;
+}
+
+
+@media only screen and (max-width: 768px) { 
+    
+ nav{
+    background-color: purple;
+    width: 100vw;
+    height: 8rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ nav img{
+  height: 3rem;
+ }
+ nav ul{
+    display: none
+ }
+ h1{
+    font-size: 8rem;
+    color: white;
+    width: 100vw;
+    height: 20rem;
+    text-align: center;
+    margin-bottom: 2em;
+ }
+ nav div button{
+    background-color: purple;
+    border: none;
+ }
+
+.color {
+    color: orange;
+ }
+p{
+    font-size: 2rem;
+    color: white;
+    width: 100vw;
+    height: 20rem;
+    text-align: center;
+    padding-top: 2rem;
+ }
+
+ header{
+    width: 100rw;
+ }
+div{
+    background-color: purple;
+    display: flex;
+    flex-direction: column;
+    
+}
+header div button{
+    background: white;
+    border: none;
+    margin: 1rem;
+}
+#logo-google{
+    background-color: purple;
+}
+#sign-up{
+    width: 90vw;
+    height: 20rem;
+}
+}
